@@ -1,0 +1,22 @@
+[package]
+name = "xoxo-nft"
+version = "0.1.0"
+description = "XoxoNFT - A Solana NFT program for generating and minting DALL-E NFTs"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "xoxo_nft"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.29.0"
+anchor-spl = "0.29.0"
+mpl-token-metadata = "1.13.0"
+solana-program = "~1.17.0"  # Updated to be compatible with Anchor 0.29.0
