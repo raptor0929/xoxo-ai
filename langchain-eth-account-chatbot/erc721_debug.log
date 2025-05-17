@@ -1,0 +1,256 @@
+2025-05-16 14:02:40,820 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 14:02:41,336 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Starting NFT mint operation with contract: 0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07
+2025-05-16 14:02:41,336 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Destination address: 0x5ABF4f17023e6536F480eb21C5483FDEa201d972
+2025-05-16 14:02:41,336 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Wallet address: 0x5fDF2F46959bD37ba72C06aB523CAC3F88291756
+2025-05-16 14:02:41,337 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Original contract address: 0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07
+2025-05-16 14:02:41,337 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum contract address: 0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07
+2025-05-16 14:02:41,346 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Original destination address: 0x5ABF4f17023e6536F480eb21C5483FDEa201d972
+2025-05-16 14:02:41,346 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum destination address: 0x5ABF4f17023e6536F480eb21C5483FDEa201d972
+2025-05-16 14:02:41,350 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Encoded mint function data
+2025-05-16 14:02:41,350 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction data: {"to": "0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07", "data": "0x40c10f190000000000000000000000005abf4f17023e6536f480eb21c5483fdea201d9720000000000000000000000000000000000000000000000000000000000000001"}
+2025-05-16 14:02:43,541 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - ERROR - Contract logic error: ('execution reverted', 'no data')
+2025-05-16 14:02:43,542 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - ERROR - Contract reverted with reason: ('execution reverted', 'no data')
+2025-05-16 14:02:46,274 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 14:09:11,395 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 14:09:12,094 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Starting NFT mint operation with contract: 0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07
+2025-05-16 14:09:12,094 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 14:09:12,094 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Wallet address: 0x5fDF2F46959bD37ba72C06aB523CAC3F88291756
+2025-05-16 14:09:12,098 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Original contract address: 0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07
+2025-05-16 14:09:12,099 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum contract address: 0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07
+2025-05-16 14:09:12,114 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Original destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 14:09:12,114 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 14:09:12,120 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Encoded mint function data
+2025-05-16 14:09:12,121 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction data: {"to": "0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07", "data": "0x40c10f190000000000000000000000002656c60b79a3376bec507453978af5ac73a8b5fc0000000000000000000000000000000000000000000000000000000000000001"}
+2025-05-16 14:09:43,507 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - ERROR - Contract logic error: ('execution reverted', 'no data')
+2025-05-16 14:09:43,508 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - ERROR - Contract reverted with reason: ('execution reverted', 'no data')
+2025-05-16 14:09:46,958 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 14:21:28,023 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 14:21:28,315 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Starting NFT mint operation with contract: 0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07
+2025-05-16 14:21:28,315 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 14:21:28,315 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Wallet address: 0x5fDF2F46959bD37ba72C06aB523CAC3F88291756
+2025-05-16 14:21:28,328 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Original contract address: 0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07
+2025-05-16 14:21:28,328 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum contract address: 0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07
+2025-05-16 14:21:28,482 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Original destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 14:21:28,482 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 14:21:28,485 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Encoded mint function data
+2025-05-16 14:21:28,486 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction data: {"to": "0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07", "data": "0x6a6278420000000000000000000000002656c60b79a3376bec507453978af5ac73a8b5fc"}
+2025-05-16 14:21:30,436 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - ERROR - Exception during mint operation: 'str' object has no attribute 'hex'
+Traceback (most recent call last):
+  File "/Users/flaura-macbook/_projects/agentkit/python/coinbase-agentkit/coinbase_agentkit/action_providers/erc721/erc721_action_provider.py", line 90, in mint
+    logger.info(f"Transaction sent with hash: {tx_hash.hex()}")
+                                               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'hex'
+2025-05-16 14:21:31,569 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 15:20:52,335 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 15:20:52,595 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Starting NFT mint operation with contract: 0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07
+2025-05-16 15:20:52,595 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 15:20:52,595 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Wallet address: 0x5fDF2F46959bD37ba72C06aB523CAC3F88291756
+2025-05-16 15:20:52,596 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Original contract address: 0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07
+2025-05-16 15:20:52,596 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum contract address: 0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07
+2025-05-16 15:20:52,600 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Original destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 15:20:52,600 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 15:20:52,603 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Encoded mint function data
+2025-05-16 15:20:52,603 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction data: {"to": "0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07", "data": "0x6a6278420000000000000000000000002656c60b79a3376bec507453978af5ac73a8b5fc"}
+2025-05-16 15:20:54,921 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - ERROR - Exception during mint operation: 'str' object has no attribute 'hex'
+Traceback (most recent call last):
+  File "/Users/flaura-macbook/_projects/agentkit/python/coinbase-agentkit/coinbase_agentkit/action_providers/erc721/erc721_action_provider.py", line 90, in mint
+    logger.info(f"Transaction sent with hash: {tx_hash.hex()}")
+                                               ^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'hex'
+2025-05-16 15:20:56,162 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 15:22:19,319 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 15:22:19,699 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Starting NFT mint operation with contract: 0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07
+2025-05-16 15:22:19,699 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 15:22:19,699 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Wallet address: 0x5fDF2F46959bD37ba72C06aB523CAC3F88291756
+2025-05-16 15:22:19,700 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Original contract address: 0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07
+2025-05-16 15:22:19,700 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum contract address: 0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07
+2025-05-16 15:22:19,704 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Original destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 15:22:19,705 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 15:22:19,716 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Encoded mint function data
+2025-05-16 15:22:19,717 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction data: {"to": "0x9fA812274ae50249beFB1Bc895Cd808A3f13bc07", "data": "0x6a6278420000000000000000000000002656c60b79a3376bec507453978af5ac73a8b5fc"}
+2025-05-16 15:22:22,117 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction sent with hash: 0x01d94759913b4bf4a0b85ab7d00a87ce4a629efaff30b0dbe97afee3c70128ba
+2025-05-16 15:22:25,249 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 16:54:26,351 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 16:54:26,647 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Starting Xoxo DALL-E NFT generation with prompt: A cyberpunk cat with neon lights in Tokyo
+2025-05-16 16:54:26,647 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - NFT Name: Xoxo NFT: A cyberpunk cat with neon ligh...
+2025-05-16 16:54:26,647 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 16:54:26,648 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 16:54:26,648 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 🎨 Generating image with DALL-E...
+2025-05-16 16:54:26,687 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generating DALL-E image with prompt: A cyberpunk cat with neon lights in Tokyo
+2025-05-16 16:54:42,777 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-05-16 16:54:42,783 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generated image URL: https://oaidalleapiprodscus.blob.core.windows.net/private/org-ZNoIh5OWEHZ8KhJXU8dqrZn3/user-dtjwOw8AALT5Twy0GJPWyLRb/img-PlT8cmuDYJM0dM2JcMfcvxAY.png?st=2025-05-16T19%3A54%3A42Z&se=2025-05-16T21%3A54%3A42Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-16T20%3A54%3A42Z&ske=2025-05-17T20%3A54%3A42Z&sks=b&skv=2024-08-04&sig=SPjk7dLg6eM5J41h037WwX7PFifbujzrSuRhYbHFQ1E%3D
+2025-05-16 16:54:42,783 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 📤 Uploading image to IPFS...
+2025-05-16 16:54:42,783 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Downloading image from URL: https://oaidalleapiprodscus.blob.core.windows.net/private/org-ZNoIh5OWEHZ8KhJXU8dqrZn3/user-dtjwOw8AALT5Twy0GJPWyLRb/img-PlT8cmuDYJM0dM2JcMfcvxAY.png?st=2025-05-16T19%3A54%3A42Z&se=2025-05-16T21%3A54%3A42Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-16T20%3A54%3A42Z&ske=2025-05-17T20%3A54%3A42Z&sks=b&skv=2024-08-04&sig=SPjk7dLg6eM5J41h037WwX7PFifbujzrSuRhYbHFQ1E%3D
+2025-05-16 16:54:49,098 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Uploading image to IPFS via Pinata
+2025-05-16 16:54:52,887 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Image uploaded to IPFS: ipfs://QmbYgYWT2DmxZuBCvNExuS4AbPD5cNk92smCdw7Z7y1bcN
+2025-05-16 16:54:52,888 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Gateway URL: https://gateway.pinata.cloud/ipfs/QmbYgYWT2DmxZuBCvNExuS4AbPD5cNk92smCdw7Z7y1bcN
+2025-05-16 16:54:52,889 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 📝 Creating NFT metadata...
+2025-05-16 16:54:52,889 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Uploading metadata to IPFS via Pinata
+2025-05-16 16:54:53,663 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Metadata uploaded to IPFS: ipfs://bafkreibcniebjlgijqlg5rhcsgwwgvhujuoqgd7yrr32dzmxcszd2rdmfu
+2025-05-16 16:54:53,683 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Using contract address from NFT_CONTRACT_ADDRESS environment variable
+2025-05-16 16:54:53,684 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Using existing contract at: 0xb944C6eAFb3b76FCF54aEE0d821b755dFBA17250
+2025-05-16 16:54:53,718 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Encoded standard mint function (no tokenURI parameter)
+2025-05-16 16:54:53,723 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction data: {"to": "0xb944C6eAFb3b76FCF54aEE0d821b755dFBA17250", "data": "0x6a6278420000000000000000000000002656c60b79a3376bec507453978af5ac73a8b5fc"}
+2025-05-16 16:54:55,845 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction sent with hash: 0x2358473c083b5b0696cdef39004c4a26eb8d9c2bf5cbdefa47c999e0b2c8b834
+2025-05-16 16:54:55,845 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction URL: https://sepolia.basescan.org/tx/0x2358473c083b5b0696cdef39004c4a26eb8d9c2bf5cbdefa47c999e0b2c8b834
+2025-05-16 16:55:08,043 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 17:38:25,848 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 17:38:26,107 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Starting Xoxo DALL-E NFT generation with prompt: A pinaple character laying in the beach drinking caipirinha
+2025-05-16 17:38:26,108 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - NFT Name: Xoxo NFT: A pinaple character laying in ...
+2025-05-16 17:38:26,108 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 17:38:26,108 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 17:38:26,109 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 🎨 Generating image with DALL-E...
+2025-05-16 17:38:26,198 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generating DALL-E image with prompt: A pinaple character laying in the beach drinking caipirinha
+2025-05-16 17:38:44,937 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-05-16 17:38:44,939 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generated image URL: https://oaidalleapiprodscus.blob.core.windows.net/private/org-ZNoIh5OWEHZ8KhJXU8dqrZn3/user-dtjwOw8AALT5Twy0GJPWyLRb/img-dmVeKBF9xztZat10jssqPgUS.png?st=2025-05-16T20%3A38%3A45Z&se=2025-05-16T22%3A38%3A45Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-16T20%3A02%3A14Z&ske=2025-05-17T20%3A02%3A14Z&sks=b&skv=2024-08-04&sig=JL7W8KzcGwVbs7DRVJ%2BR3SSoK6LEXu60oqMmbc/BYu0%3D
+2025-05-16 17:38:44,939 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 📤 Uploading image to IPFS...
+2025-05-16 17:38:44,939 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - ERROR - Exception during DALL-E NFT generation: PINATA_JWT environment variable not found
+Traceback (most recent call last):
+  File "/Users/flaura-macbook/_projects/agentkit/python/coinbase-agentkit/coinbase_agentkit/action_providers/erc721/erc721_action_provider.py", line 399, in dalle_nft
+    ipfs_url, gateway_url = upload_to_ipfs(image_url)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/flaura-macbook/_projects/agentkit/python/coinbase-agentkit/coinbase_agentkit/action_providers/erc721/erc721_action_provider.py", line 547, in upload_to_ipfs
+    raise ValueError("PINATA_JWT environment variable not found")
+ValueError: PINATA_JWT environment variable not found
+2025-05-16 17:38:46,561 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 17:40:18,574 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 17:40:18,823 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Starting Xoxo DALL-E NFT generation with prompt: A pinaple character laying in the beach drinking caipirinha
+2025-05-16 17:40:18,824 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - NFT Name: Xoxo NFT: A pinaple character laying in ...
+2025-05-16 17:40:18,824 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 17:40:18,824 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 17:40:18,824 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 🎨 Generating image with DALL-E...
+2025-05-16 17:40:18,875 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generating DALL-E image with prompt: A pinaple character laying in the beach drinking caipirinha
+2025-05-16 17:40:35,012 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-05-16 17:40:35,015 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generated image URL: https://oaidalleapiprodscus.blob.core.windows.net/private/org-ZNoIh5OWEHZ8KhJXU8dqrZn3/user-dtjwOw8AALT5Twy0GJPWyLRb/img-udmWUBgRPESq0jDEJudhe6tL.png?st=2025-05-16T20%3A40%3A34Z&se=2025-05-16T22%3A40%3A34Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-16T21%3A40%3A34Z&ske=2025-05-17T21%3A40%3A34Z&sks=b&skv=2024-08-04&sig=iQS71wUcPPkyUGnTyfa30a1gdGkEsoUQE6EIRWVp1qw%3D
+2025-05-16 17:40:35,015 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 📤 Uploading image to IPFS...
+2025-05-16 17:40:35,015 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Downloading image from URL: https://oaidalleapiprodscus.blob.core.windows.net/private/org-ZNoIh5OWEHZ8KhJXU8dqrZn3/user-dtjwOw8AALT5Twy0GJPWyLRb/img-udmWUBgRPESq0jDEJudhe6tL.png?st=2025-05-16T20%3A40%3A34Z&se=2025-05-16T22%3A40%3A34Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-16T21%3A40%3A34Z&ske=2025-05-17T21%3A40%3A34Z&sks=b&skv=2024-08-04&sig=iQS71wUcPPkyUGnTyfa30a1gdGkEsoUQE6EIRWVp1qw%3D
+2025-05-16 17:40:39,695 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Uploading image to IPFS via Pinata
+2025-05-16 17:40:45,162 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Image uploaded to IPFS: ipfs://QmSt9oAQnmqqc4Pg5FXyRDwvKtdtZRdysTgnjiMyhg9YxK
+2025-05-16 17:40:45,162 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Gateway URL: https://gateway.pinata.cloud/ipfs/QmSt9oAQnmqqc4Pg5FXyRDwvKtdtZRdysTgnjiMyhg9YxK
+2025-05-16 17:40:45,163 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 📝 Creating NFT metadata...
+2025-05-16 17:40:45,164 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Uploading metadata to IPFS via Pinata
+2025-05-16 17:40:45,920 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Metadata uploaded to IPFS: ipfs://bafkreihtkxylil36hxb2x7wve6btkrbsuhyuiec6mef3uz77rqinhk5csa
+2025-05-16 17:40:45,923 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Using contract address from NFT_CONTRACT_ADDRESS environment variable
+2025-05-16 17:40:45,924 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Using existing contract at: 0xb944C6eAFb3b76FCF54aEE0d821b755dFBA17250
+2025-05-16 17:40:45,939 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Failed to encode mint function with tokenURI parameter: 
+ABI Not Found!
+No element named `mint` with 2 argument(s).
+Provided argument types: (address,str)
+Provided keyword argument types: {}
+
+Tried to find a matching ABI element named `mint`, but encountered the following problems:
+Signature: mint(address), type: function
+Expected 1 argument(s) but received 2 argument(s).
+
+2025-05-16 17:40:45,939 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - ERROR - Error minting NFT: cannot access local variable 'data' where it is not associated with a value
+2025-05-16 17:40:47,362 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 17:46:48,395 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 17:46:48,961 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Starting Xoxo DALL-E NFT generation with prompt: A pinaple character laying in the beach drinking caipirinha
+2025-05-16 17:46:48,961 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - NFT Name: Xoxo NFT: A pinaple character laying in ...
+2025-05-16 17:46:48,961 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 17:46:48,962 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 17:46:48,962 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 🎨 Generating image with DALL-E...
+2025-05-16 17:46:49,032 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generating DALL-E image with prompt: A pinaple character laying in the beach drinking caipirinha
+2025-05-16 17:47:02,964 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-05-16 17:47:02,968 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generated image URL: https://oaidalleapiprodscus.blob.core.windows.net/private/org-ZNoIh5OWEHZ8KhJXU8dqrZn3/user-dtjwOw8AALT5Twy0GJPWyLRb/img-7goCnqttR1PzjdyAVPjGhymK.png?st=2025-05-16T20%3A47%3A03Z&se=2025-05-16T22%3A47%3A03Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-16T19%3A34%3A19Z&ske=2025-05-17T19%3A34%3A19Z&sks=b&skv=2024-08-04&sig=DAfDMJum1R9cIpcPTCD3xucN9dqUEZXZcewUsLQ0ZzU%3D
+2025-05-16 17:47:02,968 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 📤 Uploading image to IPFS...
+2025-05-16 17:47:02,968 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - ERROR - Exception during DALL-E NFT generation: PINATA_JWT environment variable not found
+Traceback (most recent call last):
+  File "/Users/flaura-macbook/_projects/agentkit/python/coinbase-agentkit/coinbase_agentkit/action_providers/erc721/erc721_action_provider.py", line 399, in dalle_nft
+    ipfs_url, gateway_url = upload_to_ipfs(image_url)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/flaura-macbook/_projects/agentkit/python/coinbase-agentkit/coinbase_agentkit/action_providers/erc721/erc721_action_provider.py", line 537, in upload_to_ipfs
+    raise ValueError("PINATA_JWT environment variable not found")
+ValueError: PINATA_JWT environment variable not found
+2025-05-16 17:47:04,498 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 17:49:51,804 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 17:49:52,042 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Starting Xoxo DALL-E NFT generation with prompt: A pinaple character laying in the beach drinking caipirinha
+2025-05-16 17:49:52,042 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - NFT Name: Xoxo NFT: A pinaple character laying in ...
+2025-05-16 17:49:52,042 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 17:49:52,043 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 17:49:52,043 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 🎨 Generating image with DALL-E...
+2025-05-16 17:49:52,089 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generating DALL-E image with prompt: A pinaple character laying in the beach drinking caipirinha
+2025-05-16 17:50:08,408 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-05-16 17:50:08,418 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generated image URL: https://oaidalleapiprodscus.blob.core.windows.net/private/org-ZNoIh5OWEHZ8KhJXU8dqrZn3/user-dtjwOw8AALT5Twy0GJPWyLRb/img-NMLnCGS1I9akij5D6rczLVZ0.png?st=2025-05-16T20%3A50%3A08Z&se=2025-05-16T22%3A50%3A08Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-16T19%3A08%3A22Z&ske=2025-05-17T19%3A08%3A22Z&sks=b&skv=2024-08-04&sig=AFgDPnIHD8brhqzfzmP4UOEh5P4Ew6K05LiaZ6V/hLQ%3D
+2025-05-16 17:50:08,419 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 📤 Uploading image to IPFS...
+2025-05-16 17:50:08,420 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - ERROR - Exception during DALL-E NFT generation: PINATA_JWT environment variable not found
+Traceback (most recent call last):
+  File "/Users/flaura-macbook/_projects/agentkit/python/coinbase-agentkit/coinbase_agentkit/action_providers/erc721/erc721_action_provider.py", line 399, in dalle_nft
+    ipfs_url, gateway_url = upload_to_ipfs(image_url)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/flaura-macbook/_projects/agentkit/python/coinbase-agentkit/coinbase_agentkit/action_providers/erc721/erc721_action_provider.py", line 537, in upload_to_ipfs
+    raise ValueError("PINATA_JWT environment variable not found")
+ValueError: PINATA_JWT environment variable not found
+2025-05-16 17:50:10,260 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 17:52:27,044 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-16 17:52:27,282 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Starting Xoxo DALL-E NFT generation with prompt: dj dog playing a concert in the egyptian piramids
+2025-05-16 17:52:27,282 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - NFT Name: Xoxo NFT: dj dog playing a concert in th...
+2025-05-16 17:52:27,282 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 17:52:27,283 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-16 17:52:27,283 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 🎨 Generating image with DALL-E...
+2025-05-16 17:52:27,334 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generating DALL-E image with prompt: dj dog playing a concert in the egyptian piramids
+2025-05-16 17:52:43,382 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-05-16 17:52:43,385 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generated image URL: https://oaidalleapiprodscus.blob.core.windows.net/private/org-ZNoIh5OWEHZ8KhJXU8dqrZn3/user-dtjwOw8AALT5Twy0GJPWyLRb/img-EPk9oTdsiK2wJjbQSg8lZESA.png?st=2025-05-16T20%3A52%3A41Z&se=2025-05-16T22%3A52%3A41Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-16T19%3A20%3A22Z&ske=2025-05-17T19%3A20%3A22Z&sks=b&skv=2024-08-04&sig=NYeaEuJ7JH60TTqqg8nDaEJ3/fW71g8mMu7bssO/Nx0%3D
+2025-05-16 17:52:43,385 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 📤 Uploading image to IPFS...
+2025-05-16 17:52:43,385 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Downloading image from URL: https://oaidalleapiprodscus.blob.core.windows.net/private/org-ZNoIh5OWEHZ8KhJXU8dqrZn3/user-dtjwOw8AALT5Twy0GJPWyLRb/img-EPk9oTdsiK2wJjbQSg8lZESA.png?st=2025-05-16T20%3A52%3A41Z&se=2025-05-16T22%3A52%3A41Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-16T19%3A20%3A22Z&ske=2025-05-17T19%3A20%3A22Z&sks=b&skv=2024-08-04&sig=NYeaEuJ7JH60TTqqg8nDaEJ3/fW71g8mMu7bssO/Nx0%3D
+2025-05-16 17:52:47,322 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Uploading image to IPFS via Pinata
+2025-05-16 17:52:51,362 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Image uploaded to IPFS: ipfs://QmWY31zip2tjiCG4KiZVZ7REnUyb9bBpSf5LoaoMadE8Dc
+2025-05-16 17:52:51,362 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Gateway URL: https://gateway.pinata.cloud/ipfs/QmWY31zip2tjiCG4KiZVZ7REnUyb9bBpSf5LoaoMadE8Dc
+2025-05-16 17:52:51,362 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 📝 Creating NFT metadata...
+2025-05-16 17:52:51,362 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Uploading metadata to IPFS via Pinata
+2025-05-16 17:52:52,184 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Metadata uploaded to IPFS: ipfs://bafkreicr5hzueipwq4v3bmqicprfat2ocqqbo2szj6sm676bhkgklfloem
+2025-05-16 17:52:52,185 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Using contract address from NFT_CONTRACT_ADDRESS environment variable
+2025-05-16 17:52:52,185 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Using existing contract at: 0xb944C6eAFb3b76FCF54aEE0d821b755dFBA17250
+2025-05-16 17:52:52,195 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Encoded mint function with tokenURI parameter: ipfs://bafkreicr5hzueipwq4v3bmqicprfat2ocqqbo2szj6sm676bhkgklfloem
+2025-05-16 17:52:52,196 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction data: {"to": "0xb944C6eAFb3b76FCF54aEE0d821b755dFBA17250", "data": "0xd0def5210000000000000000000000002656c60b79a3376bec507453978af5ac73a8b5fc00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000042697066733a2f2f6261666b726569637235687a756569707771347633626d7169637072666174326f637171626f32737a6a36736d36373662686b676b6c666c6f656d000000000000000000000000000000000000000000000000000000000000"}
+2025-05-16 17:52:54,512 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction sent with hash: 0x4825585875ffdce22718702e7b0e3251ed2f9609551000127262c39d48317157
+2025-05-16 17:52:54,513 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction URL: https://sepolia.basescan.org/tx/0x4825585875ffdce22718702e7b0e3251ed2f9609551000127262c39d48317157
+2025-05-16 17:53:08,318 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 02:31:21,921 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 02:31:22,249 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Starting Xoxo DALL-E NFT generation with prompt: ghibli styles a couple of new friends (man and woman) having a conversation and surrounded them there are images of topics of conversation they had in circles, as if they were remembering all the conversation. The topics they had a conversation were animal rescuing, cooking, extreme sports, concerts
+2025-05-17 02:31:22,250 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - NFT Name: New Friends Conversation
+2025-05-17 02:31:22,250 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-17 02:31:22,253 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-17 02:31:22,254 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 🎨 Generating image with DALL-E...
+2025-05-17 02:31:22,304 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generating DALL-E image with prompt: ghibli styles a couple of new friends (man and woman) having a conversation and surrounded them there are images of topics of conversation they had in circles, as if they were remembering all the conversation. The topics they had a conversation were animal rescuing, cooking, extreme sports, concerts
+2025-05-17 02:31:35,029 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-05-17 02:31:35,039 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generated image URL: https://oaidalleapiprodscus.blob.core.windows.net/private/org-ZNoIh5OWEHZ8KhJXU8dqrZn3/user-dtjwOw8AALT5Twy0GJPWyLRb/img-SNB2O1QiHegPzc6BFF0JksmI.png?st=2025-05-17T05%3A31%3A35Z&se=2025-05-17T07%3A31%3A35Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-16T20%3A36%3A00Z&ske=2025-05-17T20%3A36%3A00Z&sks=b&skv=2024-08-04&sig=sRsfgW1gdt1KMOEoy7Vtu2uD2xJF2UqqscBUbLRc%2BEM%3D
+2025-05-17 02:31:35,039 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 📤 Uploading image to IPFS...
+2025-05-17 02:31:35,039 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Downloading image from URL: https://oaidalleapiprodscus.blob.core.windows.net/private/org-ZNoIh5OWEHZ8KhJXU8dqrZn3/user-dtjwOw8AALT5Twy0GJPWyLRb/img-SNB2O1QiHegPzc6BFF0JksmI.png?st=2025-05-17T05%3A31%3A35Z&se=2025-05-17T07%3A31%3A35Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-16T20%3A36%3A00Z&ske=2025-05-17T20%3A36%3A00Z&sks=b&skv=2024-08-04&sig=sRsfgW1gdt1KMOEoy7Vtu2uD2xJF2UqqscBUbLRc%2BEM%3D
+2025-05-17 02:31:41,291 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Uploading image to IPFS via Pinata
+2025-05-17 02:31:44,727 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Image uploaded to IPFS: ipfs://QmaNfagFdJQNiMX1yBXYeWr7eYeSzQc1WkzQ5hr1hhCeAC
+2025-05-17 02:31:44,728 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Gateway URL: https://gateway.pinata.cloud/ipfs/QmaNfagFdJQNiMX1yBXYeWr7eYeSzQc1WkzQ5hr1hhCeAC
+2025-05-17 02:31:44,729 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 📝 Creating NFT metadata...
+2025-05-17 02:31:44,731 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Uploading metadata to IPFS via Pinata
+2025-05-17 02:31:45,542 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Metadata uploaded to IPFS: ipfs://bafkreihxgjf4op4tdpnmdpbrmqvy2wrjoipg523x2tbkrnecv2zfk74gre
+2025-05-17 02:31:45,543 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Using contract address from NFT_CONTRACT_ADDRESS environment variable
+2025-05-17 02:31:45,545 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Using existing contract at: 0xb944C6eAFb3b76FCF54aEE0d821b755dFBA17250
+2025-05-17 02:31:45,599 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Encoded mint function with tokenURI parameter: ipfs://bafkreihxgjf4op4tdpnmdpbrmqvy2wrjoipg523x2tbkrnecv2zfk74gre
+2025-05-17 02:31:45,599 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction data: {"to": "0xb944C6eAFb3b76FCF54aEE0d821b755dFBA17250", "data": "0xd0def5210000000000000000000000002656c60b79a3376bec507453978af5ac73a8b5fc00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000042697066733a2f2f6261666b7265696878676a66346f70347464706e6d647062726d7176793277726a6f697067353233783274626b726e656376327a666b3734677265000000000000000000000000000000000000000000000000000000000000"}
+2025-05-17 02:31:48,927 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction sent with hash: 0x7fc29acbb509d984f7ef29c34775f65e7d6b79d6f09578871ce7dd4249e7f71f
+2025-05-17 02:31:48,928 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction URL: https://sepolia.basescan.org/tx/0x7fc29acbb509d984f7ef29c34775f65e7d6b79d6f09578871ce7dd4249e7f71f
+2025-05-17 02:31:59,599 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 02:37:59,628 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 02:37:59,878 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Starting Xoxo DALL-E NFT generation with prompt: a couple of new friends (man and woman) having a conversation and surrounded them there are images of topics of conversation they had in circles, as if they were remembering all the conversation. The topics they had a conversation were animal rescuing, cooking, extreme sports, concerts. Use ghibli character style, it's important!
+2025-05-17 02:37:59,879 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - NFT Name: Xoxo NFT: a couple of new friends (man a...
+2025-05-17 02:37:59,879 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-17 02:37:59,880 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Checksum destination address: 0x2656C60B79A3376beC507453978af5Ac73a8b5fC
+2025-05-17 02:37:59,880 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 🎨 Generating image with DALL-E...
+2025-05-17 02:37:59,938 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generating DALL-E image with prompt: a couple of new friends (man and woman) having a conversation and surrounded them there are images of topics of conversation they had in circles, as if they were remembering all the conversation. The topics they had a conversation were animal rescuing, cooking, extreme sports, concerts. Use ghibli character style, it's important!
+2025-05-17 02:38:13,129 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/images/generations "HTTP/1.1 200 OK"
+2025-05-17 02:38:13,132 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Generated image URL: https://oaidalleapiprodscus.blob.core.windows.net/private/org-ZNoIh5OWEHZ8KhJXU8dqrZn3/user-dtjwOw8AALT5Twy0GJPWyLRb/img-bk17i71TEkXGsOcO3lXWXZXc.png?st=2025-05-17T05%3A38%3A13Z&se=2025-05-17T07%3A38%3A13Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-16T19%3A36%3A12Z&ske=2025-05-17T19%3A36%3A12Z&sks=b&skv=2024-08-04&sig=/48l5VcNc/PEddcyEg2YFj/YBFETl88XlZ3/JDDew/Q%3D
+2025-05-17 02:38:13,133 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 📤 Uploading image to IPFS...
+2025-05-17 02:38:13,133 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Downloading image from URL: https://oaidalleapiprodscus.blob.core.windows.net/private/org-ZNoIh5OWEHZ8KhJXU8dqrZn3/user-dtjwOw8AALT5Twy0GJPWyLRb/img-bk17i71TEkXGsOcO3lXWXZXc.png?st=2025-05-17T05%3A38%3A13Z&se=2025-05-17T07%3A38%3A13Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-16T19%3A36%3A12Z&ske=2025-05-17T19%3A36%3A12Z&sks=b&skv=2024-08-04&sig=/48l5VcNc/PEddcyEg2YFj/YBFETl88XlZ3/JDDew/Q%3D
+2025-05-17 02:38:16,981 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Uploading image to IPFS via Pinata
+2025-05-17 02:38:20,596 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Image uploaded to IPFS: ipfs://QmeySbrd6dceq7UajWU11h5uv1AHJoNXJxRryYkQENXYty
+2025-05-17 02:38:20,596 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Gateway URL: https://gateway.pinata.cloud/ipfs/QmeySbrd6dceq7UajWU11h5uv1AHJoNXJxRryYkQENXYty
+2025-05-17 02:38:20,597 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - 📝 Creating NFT metadata...
+2025-05-17 02:38:20,597 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Uploading metadata to IPFS via Pinata
+2025-05-17 02:38:21,647 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Metadata uploaded to IPFS: ipfs://bafkreifafvdgqidg3gavl6bplh26rcptzdelub6zs3fdep4r66gklzktp4
+2025-05-17 02:38:21,648 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Using contract address from NFT_CONTRACT_ADDRESS environment variable
+2025-05-17 02:38:21,648 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Using existing contract at: 0xb944C6eAFb3b76FCF54aEE0d821b755dFBA17250
+2025-05-17 02:38:21,677 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Encoded mint function with tokenURI parameter: ipfs://bafkreifafvdgqidg3gavl6bplh26rcptzdelub6zs3fdep4r66gklzktp4
+2025-05-17 02:38:21,678 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction data: {"to": "0xb944C6eAFb3b76FCF54aEE0d821b755dFBA17250", "data": "0xd0def5210000000000000000000000002656c60b79a3376bec507453978af5ac73a8b5fc00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000042697066733a2f2f6261666b72656966616676646771696467336761766c3662706c683236726370747a64656c7562367a73336664657034723636676b6c7a6b747034000000000000000000000000000000000000000000000000000000000000"}
+2025-05-17 02:38:24,662 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction sent with hash: 0xfb9f0e394a13da0d379660d1e1b0177afcace656bd735c149f280847f9074d5d
+2025-05-17 02:38:24,662 - coinbase_agentkit.action_providers.erc721.erc721_action_provider - INFO - Transaction URL: https://sepolia.basescan.org/tx/0xfb9f0e394a13da0d379660d1e1b0177afcace656bd735c149f280847f9074d5d
+2025-05-17 02:38:33,821 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
