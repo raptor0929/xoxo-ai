@@ -1,6 +1,6 @@
 # XOXO AI - Dating Simulation Experiment
 
-![XOXO AI Banner](https://via.placeholder.com/1200x300/FF69B4/FFFFFF?text=XOXO+AI+Dating+Simulation)
+![XOXO AI Banner](./public/xoxo-ai.png)
 
 ## Overview
 
