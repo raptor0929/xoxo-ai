@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
@@ -14,14 +14,14 @@ import {
 } from "@/components/ui/dialog"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Badge } from "@/components/ui/badge"
-import { Heart, MessageCircle, Download, X } from "lucide-react"
+import { Heart, MessageCircle, Download, X, Loader2 } from "lucide-react"
 
 // Sample match data
 const matchesData = [
   {
     id: 1,
     name: "Tom",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/man-1.png?height=100&width=100",
     compatibility: 75,
     bio: "I'm a software engineer who loves hiking and trying new restaurants. Looking for someone to share adventures with!",
     interests: ["hiking", "coding", "food", "travel"],
@@ -34,7 +34,7 @@ const matchesData = [
   {
     id: 2,
     name: "Jake",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/man-2.png?height=100&width=100",
     compatibility: 82,
     bio: "Musician and coffee enthusiast. I spend most weekends at local shows or trying new coffee shops.",
     interests: ["music", "coffee", "art", "photography"],
@@ -47,7 +47,7 @@ const matchesData = [
   {
     id: 3,
     name: "Robert",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/man-3.png?height=100&width=100",
     compatibility: 68,
     bio: "Bookworm and amateur chef. I can make a mean risotto and will always have book recommendations ready.",
     interests: ["reading", "cooking", "movies", "hiking"],
@@ -56,10 +56,11 @@ const matchesData = [
 ]
 
 export default function MatchesPage() {
-  const [matches] = useState(matchesData)
+  const [matches, setMatches] = useState(matchesData)
   const [selectedMatch, setSelectedMatch] = useState(null)
   const [activeTab, setActiveTab] = useState("profile")
   const [showMintDialog, setShowMintDialog] = useState(false)
+  const [isRobertLoading, setIsRobertLoading] = useState(true)
 
   const openMatchDetails = (match) => {
     setSelectedMatch(match)
@@ -70,11 +71,28 @@ export default function MatchesPage() {
     setSelectedMatch(null)
   }
 
+  // Simulate Robert's loading state (agents having a conversation)
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsRobertLoading(false)
+    }, 10000) // 10 seconds
+    
+    return () => clearTimeout(timer)
+  }, [])
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-pink-50 to-purple-100 p-4">
       <Card className="w-full max-w-md overflow-hidden border-2 border-pink-300 shadow-lg">
         <CardHeader className="border-b bg-white p-4">
-          <h1 className="text-center text-2xl font-bold text-pink-600">Your Matches</h1>
+          <div className="flex items-center justify-between">
+            <h1 className="text-2xl font-bold text-pink-600">Your Matches</h1>
+            <div className="flex items-center space-x-2">
+              <div className="relative h-10 w-10 overflow-hidden rounded-full border-2 border-pink-200">
+                <Image src="/woman-1.jpeg?height=100&width=100" alt="Ana" fill className="object-cover" />
+              </div>
+              <span className="font-medium">Ana</span>
+            </div>
+          </div>
         </CardHeader>
 
         <CardContent className="p-0">
@@ -83,11 +101,17 @@ export default function MatchesPage() {
               <div
                 key={match.id}
                 className="flex items-center justify-between p-4 transition-colors hover:bg-gray-50"
-                onClick={() => openMatchDetails(match)}
+                onClick={() => match.name !== "Robert" || !isRobertLoading ? openMatchDetails(match) : null}
               >
                 <div className="flex items-center space-x-3">
                   <div className="relative h-16 w-16 overflow-hidden rounded-full border-2 border-pink-200">
-                    <Image src={match.avatar || "/placeholder.svg"} alt={match.name} fill className="object-cover" />
+                    {match.name === "Robert" && isRobertLoading ? (
+                      <div className="flex h-full w-full items-center justify-center bg-gray-100">
+                        <Loader2 className="h-8 w-8 animate-spin text-pink-500" />
+                      </div>
+                    ) : (
+                      <Image src={match.avatar || "/placeholder.svg"} alt={match.name} fill className="object-cover" />
+                    )}
                   </div>
 
                   <div>
@@ -98,16 +122,51 @@ export default function MatchesPage() {
                         Compatibility: <span className="font-medium text-pink-600">{match.compatibility}%</span>
                       </span>
                     </div>
+                    {match.name === "Robert" && isRobertLoading && (
+                      <div className="mt-1 text-xs text-gray-500">
+                        AI agents are having a conversation...
+                      </div>
+                    )}
                   </div>
                 </div>
 
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="rounded-full text-pink-500 hover:bg-pink-50 hover:text-pink-600"
-                >
-                  <MessageCircle className="h-5 w-5" />
-                </Button>
+                <div className="flex space-x-2">
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="rounded-full text-pink-500 hover:bg-pink-50 hover:text-pink-600"
+                  >
+                    <MessageCircle className="h-5 w-5" />
+                  </Button>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="rounded-full text-purple-500 hover:bg-purple-50 hover:text-purple-600"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      // Create a download link for the transcript file
+                      const link = document.createElement('a');
+                      link.href = '/Users/flaura-macbook/_projects/xoxo/src/xoxo/logs/irvin_maria_conversation.txt';
+                      link.download = 'irvin_maria_conversation.txt';
+                      document.body.appendChild(link);
+                      link.click();
+                      document.body.removeChild(link);
+                    }}
+                  >
+                    <Download className="h-5 w-5" aria-label="Download Transcript" />
+                  </Button>
+                  <Button
+                    variant="ghost"
+                    size="icon"
+                    className="rounded-full text-pink-500 hover:bg-pink-50 hover:text-pink-600"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      window.open('https://testnets.opensea.io/assets/base_sepolia/0xb944C6eAFb3b76FCF54aEE0d821b755dFBA17250/2', '_blank');
+                    }}
+                  >
+                    <Heart className="h-5 w-5" aria-label="Mint NFT" />
+                  </Button>
+                </div>
               </div>
             ))}
           </div>
@@ -170,11 +229,29 @@ export default function MatchesPage() {
 
                 <div className="flex space-x-2 pt-2">
                   <Button
-                    onClick={() => setShowMintDialog(true)}
+                    onClick={() => {
+                      window.open('https://testnets.opensea.io/assets/base_sepolia/0xb944C6eAFb3b76FCF54aEE0d821b755dFBA17250/2', '_blank');
+                    }}
                     className="flex-1 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600"
                   >
-                    <Download className="mr-2 h-4 w-4" />
+                    <Heart className="mr-2 h-4 w-4" />
                     Mint NFT
+                  </Button>
+                  
+                  <Button 
+                    onClick={() => {
+                      // Create a download link for the transcript file
+                      const link = document.createElement('a');
+                      link.href = '/Users/flaura-macbook/_projects/xoxo/src/xoxo/logs/irvin_maria_conversation.txt';
+                      link.download = 'irvin_maria_conversation.txt';
+                      document.body.appendChild(link);
+                      link.click();
+                      document.body.removeChild(link);
+                    }}
+                    className="flex-1 bg-purple-500 hover:bg-purple-600"
+                  >
+                    <Download className="mr-2 h-4 w-4" />
+                    Transcript
                   </Button>
 
                   <Button onClick={() => setActiveTab("chat")} className="flex-1 bg-pink-500 hover:bg-pink-600">
@@ -204,7 +281,11 @@ export default function MatchesPage() {
                   </div>
                 ) : (
                   <div className="flex h-full flex-col items-center justify-center text-center text-gray-500">
-                    <MessageCircle className="mb-2 h-12 w-12 text-gray-300" />
+                    <div className="flex space-x-2">
+                      <MessageCircle className="h-6 w-6 text-pink-400" />
+                      <Download className="h-6 w-6 text-purple-400" aria-label="Download Transcript" />
+                      <Heart className="h-6 w-6 text-pink-400" aria-label="Mint NFT" />
+                    </div>
                     <p>No messages yet</p>
                     <p className="text-sm">Start the conversation!</p>
                   </div>

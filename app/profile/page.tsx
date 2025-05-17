@@ -20,7 +20,7 @@ export default function ProfilePage() {
     gender: "",
     lookingFor: "",
     bio: "",
-    interests: [],
+    interests: [] as string[],
     importanceOfHumor: 50,
     importanceOfLooks: 50,
     importanceOfValues: 50,
@@ -28,11 +28,11 @@ export default function ProfilePage() {
 
   const totalSteps = 3
 
-  const handleChange = (field, value) => {
+  const handleChange = (field: string, value: string | number) => {
     setProfile((prev) => ({ ...prev, [field]: value }))
   }
 
-  const handleInterestToggle = (interest) => {
+  const handleInterestToggle = (interest: string) => {
     setProfile((prev) => {
       const interests = [...prev.interests]
       if (interests.includes(interest)) {
