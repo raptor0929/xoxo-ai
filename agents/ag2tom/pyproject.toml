@@ -1,0 +1,19 @@
+[project]
+name = "a2a-samples-ag2thiago"
+version = "0.1.0"
+description = "Thiago - A Brazilian digital nomad conversational agent using A2A and AG2"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ag2>=0.8.6",
+    "ag2[gemini]>=0.8.6",
+    "google-genai>=1.10.0",
+    "a2a-samples",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+    "xoxo"
+]
+
+[tool.uv.sources]
+a2a-samples = { git = "https://github.com/google/A2A", subdirectory = "samples/python" }
+xoxo = { workspace = true }
